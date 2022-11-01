@@ -11,5 +11,5 @@ const DeleteRole = (id) => {
     return axios.delete('/api/v1/role/delete', { data: { id } })
 }
 export {
-    createRoles, fetchAllRole
+    createRoles, fetchAllRole, DeleteRole
 }

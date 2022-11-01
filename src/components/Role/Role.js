@@ -122,7 +122,6 @@ const Role = (props) => {
                 <div className='mt-3'>
                     <h4>List Current Roles</h4>
                     <TableRole />
-
                 </div>
 
             </div >
